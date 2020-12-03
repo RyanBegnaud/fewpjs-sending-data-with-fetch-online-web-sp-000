@@ -14,5 +14,7 @@ function submitData(name,email) {
   .then(function(response) {
     return response.json();
   })
-  
+  .then(function(object) {
+    document.querySelector("Body").append(`<h1>${object}</h1>`)
+  })
 }
