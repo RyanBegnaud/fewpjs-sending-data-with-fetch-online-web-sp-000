@@ -1,0 +1,1 @@
+let submitData = function(name, email)
