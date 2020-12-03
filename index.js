@@ -1,1 +1,3 @@
-let submitData = function(name, email)
+function submitData(name,email) {
+  fetch()
+}
