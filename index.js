@@ -1,3 +1,3 @@
 function submitData(name,email) {
-  fetch()
+  fetch(http://localhost:3000/users)
 }
