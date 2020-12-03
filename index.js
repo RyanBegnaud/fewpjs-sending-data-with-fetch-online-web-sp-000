@@ -4,7 +4,7 @@ let configObj = {
     "Accept": "application/json"
   },
   body: JSON.stringify(formData)
-}
+};
 
 
 function submitData(name,email) {
